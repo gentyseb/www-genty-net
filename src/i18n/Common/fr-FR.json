@@ -1,0 +1,4 @@
+{
+    "COMMON__APP__TITLE": "Bienvenue sur {{ title }}",
+    "COMMON__APP__TEXT": "hello !"
+}
