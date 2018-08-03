@@ -1,4 +1,6 @@
 import { async, TestBed } from "@angular/core/testing";
+import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
+
 import { AppComponent } from "./app.component";
 describe("AppComponent", () => {
     beforeEach(async(() => {
@@ -6,6 +8,9 @@ describe("AppComponent", () => {
             declarations: [
                 AppComponent
             ],
+            imports: [
+                TranslateModule.forRoot()
+            ]
         })
         .compileComponents();
     }));
@@ -15,17 +20,17 @@ describe("AppComponent", () => {
         expect(app)
         .toBeTruthy();
     }));
-    it(`should have as title "www-genty-net"`, async(() => {
+    it(`should have as title "www.genty.net"`, async(() => {
         const fixture = TestBed.createComponent(AppComponent);
         const app = fixture.debugElement.componentInstance;
         expect(app.title)
-        .toEqual("www-genty-net");
+        .toEqual("www.genty.net");
     }));
     it("should render title in a h1 tag", async(() => {
         const fixture = TestBed.createComponent(AppComponent);
         fixture.detectChanges();
         const compiled = fixture.debugElement.nativeElement;
         expect(compiled.querySelector("h1").textContent)
-        .toContain("Welcome to www-genty-net!");
+        .toContain("COMMON__APP__TITLE");
     }));
 });
