@@ -1,0 +1,11 @@
+<div class="sgy-education">
+    <div class="sgy-education-item" *ngFor="let education of educations; trackBy: educationsTrackByFn; ">
+        <h6 class="card-title">
+            {{ education.year }} : {{ education.name }}
+        </h6>
+        <p class="card-text" *ngIf="education.option">
+            <span [translate]="'SGY__EDUCATION__OPTION'"></span>
+            <span [innerHtml]="education.option"></span>
+        </p>
+    </div>
+</div>

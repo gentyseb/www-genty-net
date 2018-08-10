@@ -1,0 +1,16 @@
+{
+    "lastName": "GENTY",
+    "firstName": "Sébastien",
+    "phoneNumber": "06.82.89.01.30",
+    "email": "sebastien@genty.net",
+    "age": 39,
+    "maritalStatus": "marié",
+    "driverLicense": "permis B",
+    "address": {
+        "line1": "50 route de Normandie",
+        "line2": "",
+        "zipCode": "80290",
+        "town": "Lignières-Châtelain",
+        "country": "France"
+    }
+}

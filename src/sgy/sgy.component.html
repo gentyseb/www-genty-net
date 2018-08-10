@@ -1,0 +1,24 @@
+<div class="sgy-root">
+    <div class="sgy-root-menu">
+        <sgy-identity></sgy-identity>
+        <sgy-menu [categories]="categories"></sgy-menu>
+    </div>
+    <div class="sgy-root-container">
+        <div class="sgy-root-title">
+            <h2 [translate]="'SGY__TITLE'"></h2>
+        </div>
+        <div
+            class="sgy-root-content"
+            data-spy="scroll"
+            data-target="#sgy-menu"
+            data-offset="-100">
+            <sgy-category
+                [category]="category"
+                id="sgy-menu-{{category.name}}"
+                *ngFor="let category of categories; trackBy: categoriesTrackByFn;">
+                <sgy-education *ngIf="category.name === 'education'"></sgy-education>
+                <sgy-skills *ngIf="category.name === 'skills'"></sgy-skills>
+            </sgy-category>
+        </div>
+    </div>
+</div>

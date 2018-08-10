@@ -1,0 +1,8 @@
+<div class="sgy-skill">
+    <div
+        class="sgy-skill-content"
+        *ngFor="let chart of charts; trackBy: skillGroupsTrackByFn; "
+        [hidden]="!chart.canvas">
+        <canvas id="{{ chart.id }}">{{ chart.canvas }}</canvas>
+    </div>
+</div>

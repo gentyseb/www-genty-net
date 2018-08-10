@@ -1,0 +1,39 @@
+.sgy-root {
+    display: flex;
+    height: 100%;
+    min-height: 100%;
+
+    .sgy-root-menu {
+        width: 280px;
+        min-height: 100%;
+        padding: 10px;
+        box-shadow: 5px 0 5px 0 #cfcfcf;
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow: auto;
+    }
+
+    .sgy-root-container {
+        flex: 1 1 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .sgy-root-title {
+            height: 80px;
+            color: #4d6199;
+            text-align: center;
+            h2 {
+                line-height: 70px;
+                box-shadow: 0 5px 5px 0 #cfcfcf;
+            }
+        }
+
+        .sgy-root-content {
+            position: relative;
+            flex: 1 1 auto;
+            overflow: auto;
+            padding: 0 15px;
+        }
+    }
+}

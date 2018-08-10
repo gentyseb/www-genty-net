@@ -1,0 +1,9 @@
+.sgy-skill {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+    .sgy-skill-content{
+        flex: 1 1 0%;
+    }
+}

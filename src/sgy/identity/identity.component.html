@@ -1,0 +1,25 @@
+<div class="sgy-identity">
+    <div class="card">
+        <img class="card-img-top" src="/assets/identity.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ identity.firstName }} {{ identity.lastName }}</h5>
+            <ul>
+                <li>{{ identity.address.line1 }}</li>
+                <li>{{ identity.address.line2 }}</li>
+                <li>{{ identity.address.zipCode }} {{ identity.address.town }}</li>
+                <li class="sgy-identity-separator">
+                    <a href="tel:{{ identity.phoneNumber }}" class="card-link">{{ identity.phoneNumber }}</a>
+                </li>
+                <li>
+                    <a href="mailto:{{ identity.email }}" class="card-link">{{ identity.email }}</a>
+                </li>
+                <li class="sgy-identity-separator">
+                    <span [translate]="'SGY__IDENTITY__AGE'" [translateParams]="{ age: identity.age }"></span>
+                    -
+                    <span>{{ identity.maritalStatus }}</span>
+                </li>
+                <li>{{ identity.driverLicense }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

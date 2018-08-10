@@ -1,0 +1,9 @@
+<div class="sgy-menu list-group" id="sgy-menu">
+    <a
+        class="list-group-item list-group-item-action"
+        *ngFor="let category of categories; trackBy: categoriesTrackByFn;"
+        href="#sgy-menu-{{ category.name }}"
+        [translate]="category.label"
+        >
+    </a>
+</div>

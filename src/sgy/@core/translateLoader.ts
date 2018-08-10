@@ -20,6 +20,7 @@ export class MultiTranslateHttpLoader implements TranslateLoader {
 
     /**
      * Gets the translations from the server
+     * @param lang the language
      * @returns translations
      */
     public getTranslation(lang: string): any {

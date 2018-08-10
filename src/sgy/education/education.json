@@ -1,0 +1,24 @@
+{
+    "datas": [
+        {
+            "year": 2002,
+            "name": "D.E.S.S. Génie Informatique et Électrique",
+            "option" : "Réseaux et Télécommunications"
+        },
+        {
+            "year": 2001,
+            "name": "I.U.P. Génie Électrique et Informatique Industrielle - Ingénieur maître",
+            "option" : "Gestion de flux"
+        },
+        {
+            "year": 1999,
+            "name": "D.U.T. Génie Électrique et Informatique Industrielle",
+            "option" : "Réseaux Locaux Industriels"
+        },
+        {
+            "year": 1997,
+            "name": "Baccalauréat S.T.I. Électronique (BAC F2)",
+            "option" : ""
+        }
+    ]
+}

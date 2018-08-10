@@ -1,0 +1,83 @@
+{
+    "datas": [
+        {
+            "name": "Front",
+            "skills" : [
+                {
+                    "name": "JS (ECMAScript 6)",
+                    "level": 4,
+                    "major": true
+                },
+                {
+                    "name": "CSS 3 (Flex)",
+                    "level": 4,
+                    "major": true
+                },
+                {
+                    "name": "AngularJS",
+                    "level": 3,
+                    "major": false
+                },
+                {
+                    "name": "Angular 6 (TypeScript)",
+                    "level": 3,
+                    "major": true
+                },
+                {
+                    "name": "WebPack, Angular-cli",
+                    "level": 2,
+                    "major": false
+                }
+            ]
+        }, {
+            "name": "Back",
+            "skills" : [
+                {
+                    "name": "C# (.net 4.6)",
+                    "level": 4,
+                    "major": true
+                },
+                {
+                    "name": "API REST",
+                    "level": 3,
+                    "major": true
+                },
+                {
+                    "name": "Visual STUDIO 2015",
+                    "level": 4,
+                    "major": false
+                },
+                {
+                    "name": "SQLServer, Oracle, MySql",
+                    "level": 4,
+                    "major": false
+                },
+                {
+                    "name": "PHP",
+                    "level": 1,
+                    "major": false
+                }
+            ]
+        }, {
+            "name": "Autre",
+            "skills" : [
+                {
+                    "name": "Cordova",
+                    "level": 2,
+                    "major": true
+                },
+                {
+                    "name": "Merise",
+                    "level": 3,
+                    "major": false
+                },
+                {
+                    "name": "Agile, Scrum Master",
+                    "level": 3,
+                    "major": false
+                }
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "SGY__TITLE": "Ingénieur Analyste Programmeur",
+    "SGY__TEXT": "hello !",
+    "SGY__IDENTITY__AGE": "{{ age }} ans",
+    "SGY__CATEGORIES__SKILLS": "Compétences Professionnelles",
+    "SGY__CATEGORIES__EDUCATION": "Formation",
+    "SGY__CATEGORIES__EXPERIENCES": "Expériences Professionnelles",
+    "SGY__CATEGORIES__HOBBIES": "Centres d'Intérêts",
+    "SGY__EDUCATION__OPTION": "Option : ",
+    "SGY__END_LINE": "Dernière ligne"
+}

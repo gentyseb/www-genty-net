@@ -1,0 +1,13 @@
+.sgy-education {
+    .sgy-education-item {
+        padding-top: 10px;
+
+        h6 {
+            margin-bottom: 0;
+        }
+    }
+
+    .sgy-education-item:first-child {
+        padding-top: 0;
+    }
+}
